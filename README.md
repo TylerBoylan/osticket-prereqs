@@ -25,10 +25,10 @@ This outlines the prerequisites and installation of the open-source help desk ti
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/jzajz2Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uUjfXbj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I am opening the osTicket Installer. Here is where I applied the features and extensions that were not active, Including PHP.
+Here is where I am creating the osTicket virtual machine on Azure, this will give me the ability to get into a virtual machine and download the osTicket Installer.
 </p>
 <br />
 
