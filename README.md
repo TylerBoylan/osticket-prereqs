@@ -36,7 +36,7 @@ Here is where I am creating the osTicket virtual machine on Azure, this will giv
 <img src="https://i.imgur.com/Mz2RBcJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-This image shows where I went into the osTicket desktop folder and extracted the PHP folder from the files list so I was able to go into the PHP folder and get information that I needed.
+This image shows where I went into the osTicket virtual machine, into the osTicket desktop folder and extracted the PHP folder from the files list so I was able to go into the PHP folder and get information that I needed.
 </p>
 <br />
 
