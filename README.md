@@ -28,7 +28,13 @@ This outlines the prerequisites and installation of the open-source help desk ti
 <img src="https://i.imgur.com/uUjfXbj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Here is where I am creating the osTicket virtual machine on Azure, this will give me the ability to get into a virtual machine and download the osTicket Installer.
+This screenshot shows the osticket-vm I set up in Microsoft Azure as part of a lab project. The VM is running in the East US region with 2 virtual CPUs and 8 GB of RAM, It's connected to a custom virtual network with both public and private IP addresses assigned.
+
+The purpose of this VM is to install and configure osTicket, an open-source support ticket system used to simulate real-world IT service desk environments. This step lays the groundwork for hosting the platform, testing connectivity, and applying security configurations like network security groups (NSGs).
+
+The notice at the top indicates the VM agent isn’t fully initialized, which I noted for troubleshooting later, but it didn’t impact my ability to connect and continue setup through RDP.
+
+This lab helped reinforce core concepts like virtual machine deployment, network configuration, and practical cloud administration in Azure — all key skills for help desk and SOC roles.
 </p>
 <br />
 
