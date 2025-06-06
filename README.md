@@ -32,8 +32,6 @@ This screenshot shows the osticket-vm I set up in Microsoft Azure as part of a l
 
 The purpose of this VM is to install and configure osTicket, an open-source support ticket system used to simulate real-world IT service desk environments. This step lays the groundwork for hosting the platform, testing connectivity, and applying security configurations like network security groups (NSGs).
 
-The notice at the top indicates the VM agent isn’t fully initialized, which I noted for troubleshooting later, but it didn’t impact my ability to connect and continue setup through RDP.
-
 This lab helped reinforce core concepts like virtual machine deployment, network configuration, and practical cloud administration in Azure — all key skills for help desk and SOC roles.
 </p>
 <br />
