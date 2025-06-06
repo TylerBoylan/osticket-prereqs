@@ -42,7 +42,9 @@ This lab helped reinforce core concepts like virtual machine deployment, network
 <img src="https://i.imgur.com/Mz2RBcJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-This image shows where I went into the osTicket virtual machine, into the osTicket desktop folder and extracted the PHP folder from the files list so I was able to go into the PHP folder and get information that I needed.
+This image shows the osTicket virtual machine after I extracted the required installation files. I navigated to the osTicket-Installation-Files folder on the desktop and unpacked the PHP installer. From there, I moved the extracted PHP files to the C:\Windows\PHP directory.
+
+This step was essential for setting up the environment osTicket needs to run. By manually installing PHP, I was able to verify the correct version, ensure all the necessary extensions were available, and prepare for integration with IIS in the next steps of the setup.
 </p>
 <br />
 
@@ -50,7 +52,7 @@ This image shows where I went into the osTicket virtual machine, into the osTick
 <img src="https://i.imgur.com/Ym1HiTK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After extracting the PHP folder, I then had to go into the Internet Information Services (ISS) to register the PHP manager so I could run PHP commands.
+After extracting the PHP files, I opened up IIS (Internet Information Services) Manager to get PHP working with the server. Since PHP wasn’t set up by default, I used the PHP Manager tool to manually register the PHP executable by pointing it to C:\PHP\php-cgi.exe.
 </p>
 <br />
 
